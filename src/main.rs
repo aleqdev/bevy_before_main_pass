@@ -93,7 +93,6 @@ impl Plugin for MyPlugin {
 
         render_app.add_render_graph_node::<MyNode>(core_3d::graph::NAME, MyNode::NAME);
 
-        // Change this to switch behaviour
         if true {
             render_app.add_render_graph_edges(
                 core_3d::graph::NAME,
